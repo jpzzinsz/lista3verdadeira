@@ -68,8 +68,8 @@ void decimal_hexal(int decimal, char hexadecimal[]) {
 }
 
 int main() {
-    char leonidas[13];
-    scanf("%s", leonidas);
+    char zeus[13];
+    scanf("%s", zeus);
 
     int re_decimal = romano_decimal(leonidas);
     if (re_decimal == -1) {
@@ -83,9 +83,9 @@ int main() {
     decimal_binario(re_decimal, re_bi);
     decimal_hexal(re_decimal, re_hexa);
 
-    printf("%s na base 2: %s\n", leonidas, re_bi);
-    printf("%s na base 10: %d\n", leonidas, re_decimal);
-    printf("%s na base 16: %s\n", leonidas, re_hexa);
+    printf("%s na base 2: %s\n", zeus , re_bi);
+    printf("%s na base 10: %d\n", zeus , re_decimal);
+    printf("%s na base 16: %s\n", zeus , re_hexa);
 
     return 0;
 }
